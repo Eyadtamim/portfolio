@@ -192,8 +192,8 @@ body {
 }
 
 section {
-    min-height: 100vh;
-    padding: 7rem 9% 2rem;
+    padding: 3rem 9% 1.5rem;
+}
 }
 
 /* --- Fixed Link Underline Animation Bug --- */
@@ -272,7 +272,7 @@ li a:hover::before {
 .heading {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .heading span {
