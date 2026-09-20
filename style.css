@@ -236,6 +236,11 @@ section {
     padding: 6rem 9% 3rem;
 }
 
+/* Extra vertical space between the fixed navbar and the profile image. */
+.about {
+    padding-top: 8rem;
+}
+
 /* --- Fixed Link Underline Animation Bug --- */
 li a::before {
     position: absolute;
