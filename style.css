@@ -255,10 +255,12 @@ li a:hover::before {
 
 /* --- About / Hero Section --- */
 .about {
+    padding-top: 12rem; /* <-- Add this line to create top space */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 4rem;
+}
 }
 
 .about-img img {
