@@ -174,7 +174,15 @@ li a:hover::before {
     .about-content {
         grid-template-columns: 1fr;
     }
-
+.about-img img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center top; /* Centers your face properly inside the circle */
+    border-radius: 50%;
+    border: 3px solid var(--accent-color);
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.4);
+}
     .header {
         padding: 0.8rem 5%;
         justify-content: space-between;
